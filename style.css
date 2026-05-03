@@ -1,0 +1,40 @@
+.nav_a{
+  text-decoration: none;
+  border-bottom: 1px solid transparent; 
+  transition: border-color 0.5s ease, color 0.5s ease; 
+}
+
+.nav_a:hover{
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+#nav_btn:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+#header-h1{
+    font-weight: 900;
+}
+
+#header-vektor{
+    cursor: pointer;
+}
+
+#header-btn{
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+
+.carousel-slide {
+    display: none;
+    transition: 1.5s;
+}
+
+
+.carousel-slide.active {
+    display: block;
+    transition: 1.5s;
+}
